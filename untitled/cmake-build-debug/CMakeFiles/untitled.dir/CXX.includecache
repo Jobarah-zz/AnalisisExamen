@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/josueenamorado/CLionProjects/untitled/Test.cpp
+Test.h
+/Users/josueenamorado/CLionProjects/untitled/Test.h
+
+/Users/josueenamorado/CLionProjects/untitled/Test.h
+iostream
+-
+vector
+-
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+map
+-
+queue
+-
+list
+-
+set
+-
+
+/Users/josueenamorado/CLionProjects/untitled/main.cpp
+Test.h
+/Users/josueenamorado/CLionProjects/untitled/Test.h
+iostream
+-
+
