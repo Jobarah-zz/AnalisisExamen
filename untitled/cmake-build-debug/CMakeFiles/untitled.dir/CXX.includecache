@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/josueenamorado/CLionProjects/untitled/Test.cpp
+/Users/josueenamorado/git/AnalisisExamen/untitled/Test.cpp
 Test.h
-/Users/josueenamorado/CLionProjects/untitled/Test.h
+/Users/josueenamorado/git/AnalisisExamen/untitled/Test.h
 
-/Users/josueenamorado/CLionProjects/untitled/Test.h
+/Users/josueenamorado/git/AnalisisExamen/untitled/Test.h
 iostream
 -
 vector
@@ -30,9 +30,9 @@ list
 set
 -
 
-/Users/josueenamorado/CLionProjects/untitled/main.cpp
+/Users/josueenamorado/git/AnalisisExamen/untitled/main.cpp
 Test.h
-/Users/josueenamorado/CLionProjects/untitled/Test.h
+/Users/josueenamorado/git/AnalisisExamen/untitled/Test.h
 iostream
 -
 
