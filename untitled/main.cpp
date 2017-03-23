@@ -23,8 +23,7 @@ int solve(int** DAG, int size, int origin, int destination, int ** helperGraph){
 
     int returnVal = size <= 0 ? 0 : origin == destination ? 1 : size == 1 && DAG[origin][destination] ? 1 : -1, pathsCount = 0;
 
-    if (returnVal != -1)
-        return returnVal;
+    if (returnVal != -1) return returnVal;
 
     for (int i = 0; i < size; i++)
         if (DAG[origin][i] != -1)
@@ -79,7 +78,7 @@ int findFirstAvailableColour(bool * available, vector<int> answer, int size)
 {
     for (int colour = 0; colour < size; colour++)
     {
-        if (available[colour] == false && answerContains(answer, available, colour, size))
+        if (!available[colour] && answerContains(answer, available, colour, size))
         {
             return colour;
         }
