@@ -29,14 +29,14 @@ int solve(int** DAG, int size, int origin, int destination, int ** helperGraph){
     for (int i = 0; i < size; i++)
         if (DAG[origin][i] != -1)
         {
-            if(helperGraph[origin][i] == -1)
+            if(helperGraph[origin][i] != -1)
             {
-                int temp = solve(DAG, size, i, destination, helperGraph);
-                helperGraph[origin][i] = temp;
-                pathsCount += temp;
-            } else{
                 pathsCount += helperGraph[origin][i];
+                continue;
             }
+            int temp = solve(DAG, size, i, destination, helperGraph);
+            helperGraph[origin][i] = temp;
+            pathsCount += temp;
         }
     return pathsCount;
 }
